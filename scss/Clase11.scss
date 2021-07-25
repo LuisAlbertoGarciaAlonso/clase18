@@ -1,0 +1,30 @@
+@import "header";
+@import "flexTable";
+@import"cuerpo";
+@import"grid";
+@import"marcas";
+@import"asideFooter";
+@import"colores";
+@import"@queries";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $bgGral;
+}
+main{
+    color: $text;
+    background-color: $bgGral;
+    font-family:"Architects Daughter", cursive;
+    display: grid;
+    grid-template-columns: 0.3fr 0.7fr 0.2fr;
+    grid-template-rows: 0.3fr 1fr 0.2fr;
+    gap: 0rem;
+    grid-template-areas:
+        "header header header"
+        "barra cuerpo aside"
+        "footer footer footer";
+}

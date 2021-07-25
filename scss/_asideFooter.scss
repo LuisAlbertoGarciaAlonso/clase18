@@ -1,0 +1,28 @@
+@import"colores";
+.aside{
+    grid-area: aside;
+    background-color: $bgGral;
+    .musica {
+        height: 3rem;
+        width: 14rem;
+    }
+    
+}
+footer{
+    grid-area: footer;
+    background-color: $bgGral;
+    text-align: center;
+    &:hover{
+        background: radial-gradient(ellipse,$bgHover,$bgHover, $bgGral);
+        width: 100%;
+    }
+    ul{
+        list-style: none;
+        li{
+        &:hover{
+            color: $colorHover;
+            
+            }
+        }
+    }
+}

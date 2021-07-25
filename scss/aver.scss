@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #166f87;
+}
+main{
+    color: #6cd7f5;
+    background-color: #166f87;
+    font-family:"Architects Daughter", cursive;
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 0.3fr;
+    grid-template-rows: 0.5fr 1fr 0.4fr;
+    gap: 0rem;
+    grid-template-areas:
+        "header header header"
+        "barra cuerpo aside"
+        "footer footer footer";
+    header{
+        display: flex;
+        grid-area: header;
+        background-color: #166f87;
+        margin-bottom: 0.5rem;
+        &:hover{
+            transition: all 1s ease-in;
+            background-color: #000000;
+            color:red;
+            width: 100%;
+        }
+        
+        a{
+            text-decoration: none;
+        }
+        .logo{
+            border-radius: 100%;
+            margin: 1rem;
+            
+        }
+        .firma{
+            font-size: 9rem;
+            width: 100%;
+            margin-left: 2rem;
+            margin-top: 1.5rem;
+        }
+    }
+    nav{
+        letter-spacing: 0.1rem;
+        background-color: #166f87;
+        grid-area:barra;
+        font-size: 2rem;
+        display: flex;
+        text-align: center;      
+        justify-content: center;
+        ul{
+            ul{
+                position: absolute;
+                display: none;
+                top: 26rem;
+                left: 14rem;
+                z-index: 1;
+                li{
+                    margin: 0.1rem;
+                    padding: 0.15rem;
+                }
+            }
+            li{
+                
+                list-style: none;
+                margin: 0.6rem;
+                &:hover{
+                    background-color: #166f87;
+                    ul{
+                        margin: 0rem;
+                        padding: 0rem;
+                        font-size: 1rem;
+                        display: inline-block;
+                        background-color: #166f87;
+                        &:hover{
+                            background-color: black;
+                        }
+                    }
+                }
+            }
+            a{
+                color: #6cd7f5;
+                text-decoration: none;
+                &:hover{
+                    transition: all 0.5s ease-in;
+                    border-radius: 30%;
+                    background-color: black;
+                    color: red;
+                }
+            }
+        }
+    }
+    .cuerpo{
+        grid-area: cuerpo;
+        display: flex;
+        flex-direction: row;
+        background-color: #166f87;
+        .miVideo {
+            margin-left: 14rem;
+            width: 25rem;
+            height: 14.5rem;
+        }
+        .logo2 {
+            height: 15rem;
+            width: 25rem;
+            margin-left: 13.5rem;
+        }
+        .logo3 {
+            height: 15rem;
+            width: 25rem;
+            margin-left: 13.5rem;
+        }
+        p{
+            margin: 1.5rem;
+        }
+    }
+    .aside{
+        grid-area: aside;
+        background-color: #166f87;
+        .musica {
+            height: 3rem;
+            width: 14rem;
+        }
+        
+    }
+    footer{
+        grid-area: footer;
+        background-color: #166f87;
+        text-align: center;
+        &:hover{
+            background: radial-gradient(ellipse, #000000, #000000, #166f87);
+            width: 100%;
+        }
+        ul{
+            list-style: none;
+            li{
+            &:hover{
+                color:red;
+                
+            }
+        }
+    }
+    
+}
+}

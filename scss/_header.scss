@@ -1,0 +1,80 @@
+@import"colores";
+
+header{
+    display: flex;
+    grid-area: header;
+    background-color: $bgGral;
+    margin-bottom: 0.5rem;
+    &:hover{
+        transition: all 1s ease-in;
+        background-color: $bgHover;
+        color:$colorHover;
+        width: 100%;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    .logo{
+        border-radius: 100%;
+        margin: 1rem;
+        margin-left: 8rem;
+        
+    }
+    .firma{
+        font-size: 9rem;
+        width: 100%;
+        margin-left: 12rem;
+        margin-top: 1.5rem;
+    }
+}
+nav{
+    letter-spacing: 0.1rem;
+    background-color: $bgGral;
+    grid-area:barra;
+    font-size: 2rem;
+    display: flex;
+    text-align: center;      
+    justify-content: center;
+    ul{
+        ul{
+            position: absolute;
+            display: none;
+            top: 26rem;
+            left: 14rem;
+            z-index: 1;
+            li{
+                margin: 0.1rem;
+                padding: 0.15rem;
+            }
+        }
+        li{
+            
+            list-style: none;
+            margin: 0.6rem;
+            &:hover{
+                background-color: $bgGral;
+                ul{
+                    margin: 0rem;
+                    padding: 0rem;
+                    font-size: 1rem;
+                    display: inline-block;
+                    background-color: $bgGral;
+                    &:hover{
+                        background-color:$bgHover;
+                    }
+                }
+            }
+        }
+        a{
+            color: #6cd7f5;
+            text-decoration: none;
+            &:hover{
+                transition: all 0.5s ease-in;
+                border-radius: 30%;
+                background-color: $bgHover;
+                color: $colorHover;
+            }
+        }
+    }
+}

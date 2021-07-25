@@ -1,0 +1,310 @@
+header {
+  display: flex;
+  grid-area: header;
+  background-color: #166f87;
+  margin-bottom: 0.5rem; }
+  header:hover {
+    transition: all 1s ease-in;
+    background-color: #000000;
+    color: red;
+    width: 100%; }
+  header a {
+    text-decoration: none; }
+  header .logo {
+    border-radius: 100%;
+    margin: 1rem;
+    margin-left: 8rem; }
+  header .firma {
+    font-size: 9rem;
+    width: 100%;
+    margin-left: 12rem;
+    margin-top: 1.5rem; }
+
+nav {
+  letter-spacing: 0.1rem;
+  background-color: #166f87;
+  grid-area: barra;
+  font-size: 2rem;
+  display: flex;
+  text-align: center;
+  justify-content: center; }
+  nav ul ul {
+    position: absolute;
+    display: none;
+    top: 26rem;
+    left: 14rem;
+    z-index: 1; }
+    nav ul ul li {
+      margin: 0.1rem;
+      padding: 0.15rem; }
+  nav ul li {
+    list-style: none;
+    margin: 0.6rem; }
+    nav ul li:hover {
+      background-color: #166f87; }
+      nav ul li:hover ul {
+        margin: 0rem;
+        padding: 0rem;
+        font-size: 1rem;
+        display: inline-block;
+        background-color: #166f87; }
+        nav ul li:hover ul:hover {
+          background-color: #000000; }
+  nav ul a {
+    color: #6cd7f5;
+    text-decoration: none; }
+    nav ul a:hover {
+      transition: all 0.5s ease-in;
+      border-radius: 30%;
+      background-color: #000000;
+      color: red; }
+
+.flex {
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 2rem;
+  border-color: #6cd7f5;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around; }
+  .flex .equipo {
+    border: 100%;
+    width: 12rem;
+    border-radius: 80%;
+    font-size: 1.5rem;
+    margin: 0.1rem;
+    padding: 0.1rem; }
+    .flex .equipo:hover {
+      transform: scale(1.2, 1.2); }
+
+.table {
+  margin-left: 10rem; }
+  .table ol {
+    text-decoration: none;
+    list-style: none;
+    color: #6cd7f5; }
+  .table a {
+    text-decoration: none;
+    color: #91def3; }
+    .table a:hover {
+      background-color: #000000;
+      border-radius: 30%;
+      color: red;
+      transition: all 0.5s ease-in; }
+
+.cuerpo {
+  grid-area: cuerpo;
+  display: flex;
+  flex-direction: row;
+  background-color: #166f87; }
+  .cuerpo .miVideo {
+    margin-left: 13rem; }
+  .cuerpo .logo2 {
+    height: 20rem;
+    width: 50rem;
+    margin-left: 10rem; }
+  .cuerpo .logo3 {
+    height: 20rem;
+    width: 40rem;
+    margin-left: 14rem; }
+  .cuerpo p {
+    margin: 1.5rem; }
+  .cuerpo .notfound {
+    font-size: 5rem;
+    margin-left: 20rem; }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 18.75rem 18.75rem;
+  gap: 10px; }
+  .grid .grid1 {
+    border: solid 0.1rem black;
+    font-size: 2rem;
+    padding: 0.32rem; }
+    .grid .grid1 a {
+      text-decoration: none;
+      color: #6cd7f5; }
+      .grid .grid1 a:hover {
+        background-color: black;
+        border-radius: 30%;
+        color: red;
+        transition: all 0.5s ease-in; }
+  .grid .acesoramiento {
+    background-image: url(/Imagenes/asesoramiento.jpg); }
+  .grid .capacitaciones {
+    background-image: url(/Imagenes/capacitacion.jpg); }
+  .grid .posventa {
+    background-image: url(/Imagenes/posventa.jfif); }
+  .grid .materiales {
+    background-image: url(/Imagenes/materiales.jfif); }
+  .grid .ventas {
+    background-image: url(/Imagenes/ventas.jfif); }
+
+.marcas {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
+  justify-items: center; }
+
+.mainGrids {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 0.25fr 0.25fr 0.25fr;
+  grid-template-rows: 11rem 11rem;
+  justify-items: center;
+  margin: 0.1rem;
+  gap: 0.2rem; }
+
+.aside {
+  grid-area: aside;
+  background-color: #166f87; }
+  .aside .musica {
+    height: 3rem;
+    width: 14rem; }
+
+footer {
+  grid-area: footer;
+  background-color: #166f87;
+  text-align: center; }
+  footer:hover {
+    background: radial-gradient(ellipse, #000000, #000000, #166f87);
+    width: 100%; }
+  footer ul {
+    list-style: none; }
+    footer ul li:hover {
+      color: red; }
+
+@media only screen and (max-width: 768px) {
+  header {
+    height: 5rem; }
+  header .logo {
+    margin: 1rem;
+    margin-left: 1rem;
+    height: 5rem;
+    width: 5rem; }
+  header .firma {
+    font-size: 1.5rem;
+    margin: 2rem; }
+  .cuerpo .miVideo {
+    margin-left: 0rem;
+    margin-top: 0;
+    width: 12rem;
+    height: 10rem; }
+  .cuerpo .logo2 {
+    height: 8rem;
+    width: 12.5rem;
+    margin-left: 0rem; }
+  .cuerpo .logo3 {
+    height: 8rem;
+    width: 12.5rem;
+    margin-left: 0rem; }
+  .cuerpo p {
+    margin: 0.5rem; }
+  .cuerpo .notfound {
+    font-size: 5rem;
+    margin-left: 20rem; }
+  aside {
+    display: none; }
+  footer {
+    font-size: 0.35rem;
+    padding: 0; }
+  nav {
+    letter-spacing: 0rem;
+    font-size: 1rem; }
+    nav ul {
+      margin: 0;
+      padding: 0; }
+      nav ul ul {
+        top: 16rem;
+        left: 5rem; }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5rem 5rem 5rem 5rem 5rem;
+    padding: 0; }
+  .flex {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    border-color: #6cd7f5;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .flex .equipo {
+      border: 100%;
+      width: 12rem;
+      border-radius: 80%;
+      font-size: 1.5rem;
+      margin: 0.1rem;
+      padding: 0.1rem; }
+      .flex .equipo:hover {
+        transform: scale(1.2, 1.2); } }
+
+@media only screen and (min-width: 1024px) {
+  .miniMenu {
+    border-style: outset;
+    border-color: #6cd7f5;
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+    color: #6cd7f5;
+    width: 31.2%;
+    align-items: center; }
+  .firma {
+    padding-left: 0;
+    font-size: 6rem; }
+  .conGrids {
+    grid-template-columns: 0.2fr 1fr 1fr 0.4fr;
+    grid-template-rows: 0.5fr 1fr 1fr;
+    gap: 0rem; }
+  .miVideo {
+    width: 40rem;
+    margin-left: 1.5rem;
+    padding: 0;
+    margin: 0; }
+  .Fotosinicio {
+    width: 12rem; }
+  ul {
+    padding-left: 0; }
+  .logo2,
+  .logo3 {
+    margin-left: 11rem; } }
+
+@media only screen and (min-width: 1280px) {
+  .miVideo {
+    width: 50rem; }
+  .firma {
+    padding-left: 5rem;
+    font-size: 8.5rem; }
+  .grid {
+    border: none; }
+  .logo2,
+  .logo3 {
+    margin-left: 20rem; }
+  .miVideo {
+    margin-left: 5rem; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #166f87; }
+
+main {
+  color: #6cd7f5;
+  background-color: #166f87;
+  font-family: "Architects Daughter", cursive;
+  display: grid;
+  grid-template-columns: 0.3fr 0.7fr 0.2fr;
+  grid-template-rows: 0.3fr 1fr 0.2fr;
+  gap: 0rem;
+  grid-template-areas: "header header header" "barra cuerpo aside" "footer footer footer"; }

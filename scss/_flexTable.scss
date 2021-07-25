@@ -1,0 +1,42 @@
+
+.flex {
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+    border-color: $text;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    .equipo {
+        border: 100%;
+        width: 12rem;
+        border-radius: 80%;
+        font-size: 1.5rem;
+        margin: 0.1rem;
+        padding: 0.1rem;
+        &:hover {
+            transform: scale(1.2, 1.2);
+        }
+    }
+}
+.table{
+    margin-left: 10rem;
+        ol{
+            text-decoration: none;
+            list-style: none;
+            color: $text;
+        }
+        a{
+            text-decoration: none;
+            color: #91def3;
+            &:hover{
+                background-color: $bgHover;
+                border-radius: 30%;
+                color: red;
+                transition: all 0.5s ease-in;
+            }
+        }
+}

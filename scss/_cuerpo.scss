@@ -1,0 +1,26 @@
+.cuerpo{
+    grid-area: cuerpo;
+    display: flex;
+    flex-direction: row;
+    background-color: $bgGral;
+    .miVideo {
+        margin-left: 13rem;
+    }
+    .logo2 {
+        height: 20rem;
+        width: 50rem;
+        margin-left: 10rem;
+    }
+    .logo3 {
+        height: 20rem;
+        width: 40rem;
+        margin-left: 14rem;
+    }
+    p{
+        margin: 1.5rem;
+    }
+    .notfound{
+        font-size: 5rem;
+        margin-left: 20rem;
+    }
+}
