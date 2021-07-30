@@ -1,7 +1,7 @@
 @media only screen and (max-width: 768px){
-    header{
-        height: 5rem;
-    }
+        header{
+            height: 6rem;
+        }
         header .logo {
             margin: 1rem;
             margin-left: 1rem; 
@@ -9,15 +9,15 @@
             width: 5rem;
         }
         header .firma {
-            font-size: 1.5rem;
-            margin: 2rem;
+            font-size: 1.9rem;
+            margin-top: 2rem;
+            margin-left: 0.3rem;
         }
         .cuerpo{
             .miVideo {
-                margin-left: 0rem;
+                margin-left: 0.5rem;
                 margin-top: 0;
                 width: 12rem;
-                height: 10rem;
             }
             .logo2 {
                 height: 8rem;
@@ -43,6 +43,12 @@
         footer{
             font-size: 0.35rem;
             padding: 0;
+            ul{
+                padding-left: 0rem;
+            }
+    }
+    textarea {
+        width: 13.5rem;
     }
     nav{
         letter-spacing: 0rem;
@@ -61,6 +67,9 @@
         grid-template-columns: 1fr;
         grid-template-rows: 5rem 5rem 5rem 5rem 5rem;
         padding: 0;
+        .grid1{
+            padding: 0;
+        }
     }
     .flex {
         font-size: 1rem;
@@ -81,6 +90,22 @@
             &:hover {
                 transform: scale(1.2, 1.2);
             }
+        }
+    }
+    .marcas{
+        display: block;
+    }
+    .mainGrids{
+        display: block;
+        img{
+            width: 13.5rem;
+            margin-bottom: 0.3rem;
+        }
+    }
+    .table {
+        margin-left: 0rem;
+        img{
+            display: none;
         }
     }
 }
