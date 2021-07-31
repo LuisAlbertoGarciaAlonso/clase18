@@ -110,60 +110,73 @@
     }
 }
 @media only screen and (min-width: 1024px) {
-    .miniMenu {
-        border-style: outset;
-        border-color: #6cd7f5;
-        display: inline-block;
-        text-align: center;
-        list-style-type: none;
-        color: #6cd7f5;
-        width: 31.2%;
-        align-items: center;
+    header{
+        .logo{
+            margin-left: 1rem;
+        }
+        .firma{
+            font-size: 7rem;
+            margin-left: 1.5rem;
+        }
     }
-    .firma {
-        padding-left: 0;
-        font-size: 6rem;
+    .cuerpo{
+        .miVideo {
+            width: 30rem;
+            margin-left: 0.5rem;
+        }
+        .logo2 {
+            margin-left: 0;
+            width: 34rem;
+        }
+        .logo3 {
+            margin-left: 0;
+            width: 30rem;
+        }
     }
-    .conGrids {
-        grid-template-columns: 0.2fr 1fr 1fr 0.4fr;
-        grid-template-rows: 0.5fr 1fr 1fr;
-        gap: 0rem;
+    .flex {
+        .equipo {
+            width: 9.4rem;
+        }
     }
-    .miVideo {
-        width: 40rem;
-        margin-left: 1.5rem;
-        padding: 0;
-        margin: 0;
+    .table {
+        margin-left: 1rem; 
     }
-    .Fotosinicio {
-        width: 12rem;
+    aside{
+        img{
+            width: 8.5rem;
+        }
     }
-    ul {
-        padding-left: 0;
-    }
-    .logo2,
-    .logo3 {
-        margin-left: 11rem;
-    }
+
 }
 
 
 @media only screen and (min-width: 1280px) {
-    .miVideo {
-        width: 50rem;
+    .marcas{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
     }
-    .firma {
-        padding-left: 5rem;
-        font-size: 8.5rem;
+    .aside{
+        width: 5rem;
     }
-    .grid {
-        border: none;
+    .mainGrids{
+        grid-template-columns: 0.25fr 0.25fr 0.25fr;
+        grid-template-rows: 11rem 11rem;
     }
-    .logo2,
-    .logo3 {
-        margin-left: 20rem;
+    .cuerpo{
+        .miVideo {
+            width: 30rem;
+            margin-left: 20rem;
+        }
+        .logo2 {
+            margin-left: 20rem;
+            width: 34rem;
+        }
+        .logo3 {
+            margin-left: 20rem;
+            width: 30rem;
+        }
     }
-    .miVideo {
-        margin-left: 5rem;
+    nav{
+        justify-content: start;
     }
 }
