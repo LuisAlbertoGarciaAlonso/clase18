@@ -1,9 +1,11 @@
 @import"colores";
-
+@mixin resume ($bg,$dis){
+    background-color: $bg;
+    display: $dis;
+}
 header{
-    display: flex;
+    @include resume($bgGral,flex );
     grid-area: header;
-    background-color: $bgGral;
     margin-bottom: 0.5rem;
     &:hover{
         transition: all 1s ease-in;
@@ -29,11 +31,10 @@ header{
     }
 }
 nav{
+    @include resume($bgGral,flex );
     letter-spacing: 0.1rem;
-    background-color: $bgGral;
     grid-area:barra;
     font-size: 2rem;
-    display: flex;
     text-align: center;      
     justify-content: center;
     ul{
@@ -55,11 +56,10 @@ nav{
             &:hover{
                 background-color: $bgGral;
                 ul{
+                    @include resume($bgGral,inline-block );
                     margin: 0rem;
                     padding: 0rem;
                     font-size: 1rem;
-                    display: inline-block;
-                    background-color: $bgGral;
                     &:hover{
                         background-color:$bgHover;
                     }

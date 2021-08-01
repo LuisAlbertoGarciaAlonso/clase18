@@ -1,3 +1,7 @@
+@mixin log ($hei, $wid){
+    height:$hei ;
+    width: $wid;
+}
 .cuerpo{
     grid-area: cuerpo;
     display: flex;
@@ -7,13 +11,11 @@
         margin-left: 13rem;
     }
     .logo2 {
-        height: 20rem;
-        width: 50rem;
+        @include log(20rem,50rem);
         margin-left: 10rem;
     }
     .logo3 {
-        height: 20rem;
-        width: 40rem;
+        @include log(20rem,40rem);
         margin-left: 14rem;
     }
     p{

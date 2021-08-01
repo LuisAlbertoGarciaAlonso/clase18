@@ -1,7 +1,9 @@
-@import"colores";
+@mixin min ($gri,$back){
+    grid-area: $gri;
+    background-color: $back;
+}
 .aside{
-    grid-area: aside;
-    background-color: $bgGral;
+    @include min (aside,$bgGral);
     .musica {
         height: 3rem;
         width: 14rem;
@@ -9,8 +11,7 @@
     
 }
 footer{
-    grid-area: footer;
-    background-color: $bgGral;
+    @include min (footer,$bgGral);
     text-align: center;
     &:hover{
         background: radial-gradient(ellipse,$bgHover,$bgHover, $bgGral);

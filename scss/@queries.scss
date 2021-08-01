@@ -1,12 +1,19 @@
+@mixin sizes ($ml, $hei, $wid){
+    margin-left: $ml;
+    height: $hei;
+    width: $wid;
+}
+@mixin sizes1024-1280($ml, $wid){
+    margin-left: $ml;
+    width: $wid;
+}
 @media only screen and (max-width: 768px){
         header{
             height: 6rem;
         }
         header .logo {
+            @include sizes (1rem, 5rem, 5rem);
             margin: 1rem;
-            margin-left: 1rem; 
-            height: 5rem;
-            width: 5rem;
         }
         header .firma {
             font-size: 1.9rem;
@@ -15,19 +22,15 @@
         }
         .cuerpo{
             .miVideo {
-                margin-left: 0.5rem;
+                @include sizes (0.5rem,false , 12rem);
                 margin-top: 0;
-                width: 12rem;
+                
             }
             .logo2 {
-                height: 8rem;
-                width: 12.5rem;
-                margin-left: 0rem;
+                @include sizes (0rem, 8rem, 12.5rem);
             }
             .logo3 {
-                height: 8rem;
-                width: 12.5rem;
-                margin-left: 0rem;
+                @include sizes (0rem, 8rem, 12.5rem);
             }
             p{
                 margin: 0.5rem;
@@ -63,7 +66,6 @@
         }
     }
     .grid {
-        display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 5rem 5rem 5rem 5rem 5rem;
         padding: 0;
@@ -75,22 +77,8 @@
         font-size: 1rem;
         margin-bottom: 1rem;
         margin-left: 0rem;
-        border-color: $text;
-        display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        justify-content: space-around;
-        .equipo {
-            border: 100%;
-            width: 12rem;
-            border-radius: 80%;
-            font-size: 1.5rem;
-            margin: 0.1rem;
-            padding: 0.1rem;
-            &:hover {
-                transform: scale(1.2, 1.2);
-            }
-        }
     }
     .marcas{
         display: block;
@@ -121,16 +109,13 @@
     }
     .cuerpo{
         .miVideo {
-            width: 30rem;
-            margin-left: 0.5rem;
+            @include sizes1024-1280 (0.5rem, 30rem);
         }
         .logo2 {
-            margin-left: 0;
-            width: 34rem;
+            @include sizes1024-1280 (0rem, 34rem);
         }
         .logo3 {
-            margin-left: 0;
-            width: 30rem;
+            @include sizes1024-1280 (0rem, 30rem);
         }
     }
     .flex {
@@ -146,34 +131,34 @@
             width: 8.5rem;
         }
     }
-
 }
-
-
 @media only screen and (min-width: 1280px) {
     .marcas{
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     }
-    .aside{
-        width: 5rem;
-    }
     .mainGrids{
         grid-template-columns: 0.25fr 0.25fr 0.25fr;
         grid-template-rows: 11rem 11rem;
     }
+    .aside{
+        width:10rem;
+        .musica{
+            width: 10rem;
+        }
+        img{
+            width: 10rem;
+        }
+    }
     .cuerpo{
         .miVideo {
-            width: 30rem;
-            margin-left: 20rem;
+            @include sizes1024-1280 (16.5rem, 30rem);
         }
         .logo2 {
-            margin-left: 20rem;
-            width: 34rem;
+            @include sizes1024-1280 (15rem, 34rem);
         }
         .logo3 {
-            margin-left: 20rem;
-            width: 30rem;
+            @include sizes1024-1280 (16.5rem, 30rem);
         }
     }
     nav{
