@@ -188,7 +188,7 @@ footer {
     footer ul li:hover {
       color: red; }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1023px) {
   header {
     height: 6rem; }
   header .logo {
@@ -262,7 +262,7 @@ footer {
     .table img {
       display: none; } }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: px) {
   header {
     height: 6rem; }
   header .logo {
