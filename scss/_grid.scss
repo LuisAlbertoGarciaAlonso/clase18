@@ -5,11 +5,11 @@
     gap: 10px;
     .grid1 {
         border: solid 0.1rem black;
-        font-size: 2rem;
+        font-size: 1.9rem;
         padding: 0.32rem;
         a{
             text-decoration: none;
-            color: #6cd7f5;
+            color: $bgGral;
             &:hover{
                 background-color: black;
                 border-radius: 30%;
