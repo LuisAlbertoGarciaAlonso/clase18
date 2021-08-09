@@ -7,7 +7,7 @@
     margin-left: $ml;
     width: $wid;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 767px) {
         header{
             height: 6rem;
         }
@@ -98,7 +98,7 @@
         }
     }
 }
-@media only screen and (min-width: px){
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
     header{
         height: 6rem;
     }
@@ -190,7 +190,7 @@ nav{
     }
 }
 }
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1024px) {
     header{
         .logo{
             margin-left: 1rem;

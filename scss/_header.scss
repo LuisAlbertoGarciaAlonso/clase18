@@ -57,9 +57,10 @@ nav{
                 background-color: $bgGral;
                 ul{
                     @include resume($bgGral,inline-block );
-                    margin: 0rem;
+                    margin: -2.2rem;
                     padding: 0rem;
                     font-size: 1rem;
+                    z-index: 1;
                     &:hover{
                         background-color:$bgHover;
                     }
