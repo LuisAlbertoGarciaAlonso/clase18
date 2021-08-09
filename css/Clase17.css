@@ -188,7 +188,7 @@ footer {
     footer ul li:hover {
       color: red; }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 768px) {
   header {
     height: 6rem; }
   header .logo {
@@ -338,7 +338,7 @@ footer {
     .table img {
       display: none; } }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 769px) {
   header .logo {
     margin-left: 1rem; }
   header .firma {
