@@ -1,5 +1,5 @@
 header {
-  background-color: #166f87;
+  background-color: #000000;
   display: flex;
   grid-area: header;
   margin-bottom: 0.5rem; }
@@ -21,7 +21,7 @@ header {
     margin-top: 1.5rem; }
 
 nav {
-  background-color: #166f87;
+  background-color: #000000;
   display: flex;
   letter-spacing: 0.1rem;
   grid-area: barra;
@@ -41,9 +41,9 @@ nav {
     list-style: none;
     margin: 0.6rem; }
     nav ul li:hover {
-      background-color: #166f87; }
+      background-color: #000000; }
       nav ul li:hover ul {
-        background-color: #166f87;
+        background-color: #000000;
         display: inline-block;
         margin: -2.2rem;
         padding: 0rem;
@@ -101,7 +101,7 @@ nav {
   grid-area: cuerpo;
   display: flex;
   flex-direction: row;
-  background-color: #166f87; }
+  background-color: #000000; }
   .cuerpo .center {
     text-align: center; }
   .cuerpo .miVideo {
@@ -131,7 +131,7 @@ nav {
     padding: 0.32rem; }
     .grid .grid1 a {
       text-decoration: none;
-      color: #166f87; }
+      color: #000000; }
       .grid .grid1 a:hover {
         background-color: black;
         border-radius: 30%;
@@ -176,18 +176,18 @@ nav {
 
 .aside {
   grid-area: aside;
-  background-color: #166f87; }
+  background-color: #000000; }
   .aside .musica {
     height: 3rem;
     width: 14rem; }
 
 footer {
   grid-area: footer;
-  background-color: #166f87;
+  background-color: #000000;
   text-align: center;
   margin-top: 2rem; }
   footer:hover {
-    background: radial-gradient(ellipse, #000000, #000000, #166f87);
+    background: radial-gradient(ellipse, #000000, #000000, #000000);
     width: 100%; }
   footer ul {
     list-style: none; }
@@ -397,7 +397,7 @@ footer {
   box-sizing: border-box; }
 
 body {
-  background-color: #166f87; }
+  background-color: #000000; }
   body .aparecer {
     animation-duration: 4s;
     animation-name: aparecer; }
@@ -410,7 +410,7 @@ body {
 
 main {
   color: #ffffff;
-  background-color: #166f87;
+  background-color: #000000;
   font-family: "Architects Daughter", cursive;
   display: grid;
   grid-template-areas: "header header header" "barra cuerpo aside" "footer footer footer"; }
