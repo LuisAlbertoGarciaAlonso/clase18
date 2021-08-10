@@ -52,7 +52,7 @@ nav {
         nav ul li:hover ul:hover {
           background-color: #000000; }
   nav ul a {
-    color: #6cd7f5;
+    color: #ffffff;
     text-decoration: none; }
     nav ul a:hover {
       transition: all 0.5s ease-in;
@@ -66,7 +66,7 @@ nav {
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
   margin-left: 2rem;
-  border-color: #6cd7f5;
+  border-color: #ffffff;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap; }
@@ -78,17 +78,19 @@ nav {
     margin: 0.1rem;
     padding: 0.1rem; }
     .flex .equipo:hover {
-      transform: scale(1.2, 1.2); }
+      transform: scale(1.2, 1.2);
+      box-shadow: 0px 0px 20px 10px red; }
 
 .table {
-  margin-left: 10rem; }
+  margin-left: 10rem;
+  color: #ffffff; }
   .table ol {
     text-decoration: none;
     list-style: none;
-    color: #6cd7f5; }
+    color: #ffffff; }
   .table a {
     text-decoration: none;
-    color: #91def3; }
+    color: #cacaca; }
     .table a:hover {
       background-color: #000000;
       border-radius: 30%;
@@ -100,6 +102,8 @@ nav {
   display: flex;
   flex-direction: row;
   background-color: #166f87; }
+  .cuerpo .center {
+    text-align: center; }
   .cuerpo .miVideo {
     margin-left: 13rem; }
   .cuerpo .logo2 {
@@ -180,7 +184,8 @@ nav {
 footer {
   grid-area: footer;
   background-color: #166f87;
-  text-align: center; }
+  text-align: center;
+  margin-top: 2rem; }
   footer:hover {
     background: radial-gradient(ellipse, #000000, #000000, #166f87);
     width: 100%; }
@@ -404,7 +409,7 @@ body {
     opacity: 1; } }
 
 main {
-  color: #6cd7f5;
+  color: #ffffff;
   background-color: #166f87;
   font-family: "Architects Daughter", cursive;
   display: grid;

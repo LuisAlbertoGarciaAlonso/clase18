@@ -13,6 +13,7 @@
 footer{
     @include min (footer,$bgGral);
     text-align: center;
+    margin-top: 2rem;
     &:hover{
         background: radial-gradient(ellipse,$bgHover,$bgHover, $bgGral);
         width: 100%;

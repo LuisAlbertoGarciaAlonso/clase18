@@ -68,7 +68,7 @@ nav{
             }
         }
         a{
-            color: #6cd7f5;
+            color: $text;
             text-decoration: none;
             &:hover{
                 transition: all 0.5s ease-in;

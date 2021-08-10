@@ -7,6 +7,9 @@
     display: flex;
     flex-direction: row;
     background-color: $bgGral;
+    .center{
+        text-align: center;
+    }
     .miVideo {
         margin-left: 13rem;
     }

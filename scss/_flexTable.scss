@@ -17,11 +17,13 @@
         padding: 0.1rem;
         &:hover {
             transform: scale(1.2, 1.2);
+            box-shadow: 0px 0px 20px 10px red;
         }
     }
 }
 .table{
     margin-left: 10rem;
+    color: $text;
         ol{
             text-decoration: none;
             list-style: none;
@@ -29,11 +31,11 @@
         }
         a{
             text-decoration: none;
-            color: #91def3;
+            color: $consultas;
             &:hover{
                 background-color: $bgHover;
                 border-radius: 30%;
-                color: red;
+                color: $colorHover;
                 transition: all 0.5s ease-in;
             }
         }
