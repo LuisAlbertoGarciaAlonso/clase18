@@ -1,10 +1,8 @@
 .flex {
     justify-content: space-around;
-    align-items: center;
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
     margin-left: 2rem;
-    border-color: $text;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -22,8 +20,28 @@
     }
 }
 .table{
+    tbody{
+        border-style: none;
+    }
     margin-left: 10rem;
     color: $text;
+    .usuario{
+        font-size: 1.5rem;
+        background-color: black;
+        border: white solid 0.1rem;
+        margin-right: 1rem;
+        &:hover{
+            color: red;
+            border-radius: 30%;
+        }
+    }
+    .backColor{
+        background-color: rgb(255, 255, 255);
+        border: red solid 0.1rem;
+        color: black;
+        margin-top: 15rem;
+        font-size: 1.5rem;
+    }
         ol{
             text-decoration: none;
             list-style: none;

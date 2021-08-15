@@ -14,6 +14,14 @@ footer{
     @include min (footer,$bgGral);
     text-align: center;
     margin-top: 2rem;
+    nav{
+        font-size: 1.5rem;
+        justify-content: center;
+    }
+    a{
+        text-decoration: none;
+        color: white
+    }
     &:hover{
         background: radial-gradient(ellipse,$bgHover,$bgHover, $bgGral);
         width: 100%;

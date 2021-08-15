@@ -20,6 +20,9 @@
             margin-top: 2rem;
             margin-left: 0.3rem;
         }
+    main{
+            grid-template-columns: 0.5fr 1fr;
+            margin-right: 1rem;
         .cuerpo{
             .miVideo {
                 @include sizes (0.5rem,false , 12rem);
@@ -40,6 +43,7 @@
                 margin-left: 20rem;
             }
         }
+    }
         aside{
             display: none;
         }
@@ -67,9 +71,24 @@
         }
     }
     .grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: auto;
         grid-template-rows: 5rem 5rem 5rem 5rem 5rem;
         padding: 0;
+        .acesoramiento {
+            width: auto;
+        }
+        .capacitaciones {
+            width: auto;
+        }
+        .posventa {
+            width: auto;
+        }
+        .materiales {
+            width: auto;
+        }
+        .ventas {
+            width: auto;
+        }
         .grid1{
             padding: 0;
         }
@@ -83,6 +102,12 @@
     }
     .marcas{
         display: block;
+        div{
+            margin-bottom: 1rem;
+            a{
+                width: 100%;
+            }
+        }
     }
     .mainGrids{
         display: block;
@@ -99,6 +124,9 @@
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    main{
+        grid-template-columns: 1fr 2fr 0.5fr;
+    }
     header{
         height: 6rem;
     }
@@ -115,16 +143,18 @@
         .miVideo {
             @include sizes (0.5rem,false , 12rem);
             margin-top: 0;
-            margin-left: 12rem;
+            margin-left: 7rem;
             height: 7.55rem;
             
         }
         .logo2 {
             @include sizes (0rem, 8rem, 12.5rem);
-            margin-left: 12rem;
+            margin-left: 6.8rem;
         }
         .logo3 {
-            @include sizes (0rem, 8rem, 12.5rem);margin-left: 12rem;        }
+            @include sizes (0rem, 8rem, 12.5rem);
+            margin-left: 6.8rem;
+        }
         p{
             margin: 0.5rem;
         }
@@ -159,9 +189,24 @@ nav{
     }
 }
 .grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
     grid-template-rows: 5rem 5rem 5rem 5rem 5rem;
     padding: 0;
+    .acesoramiento {
+        width: auto;
+    }
+    .capacitaciones {
+        width: auto;
+    }
+    .posventa {
+        width: auto;
+    }
+    .materiales {
+        width: auto;
+    }
+    .ventas {
+        width: auto;
+    }
     .grid1{
         padding: 0;
     }
@@ -172,12 +217,29 @@ nav{
     margin-left: 0rem;
     flex-direction: column;
     flex-wrap: wrap;
+    align-content: center;
+    .equipo{
+        width: 14rem;
+
+    }
 }
 .marcas{
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    div{
+        margin-bottom: 0.1rem;
+        }
+        a{
+            width: 100%;
+        }
+    }
 }
 .mainGrids{
     display: block;
+    div{
+        text-align: center;
+        width: auto;
+    }
     img{
         width: 13.5rem;
         margin-bottom: 0.3rem;
@@ -185,11 +247,8 @@ nav{
 }
 .table {
     margin-left: 0rem;
-    img{
-        display: none;
     }
-}
-}
+
 @media only screen and (min-width: 1024px) {
     header{
         .logo{
@@ -221,7 +280,9 @@ nav{
     }
     aside{
         img{
+            display: block;
             width: 8.5rem;
+            margin-left: 0rem;
         }
     }
 }

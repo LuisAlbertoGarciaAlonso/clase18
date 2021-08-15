@@ -8,13 +8,26 @@
     @include varios(100%, grid,10px,center);
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    div{
+        a{
+            width: 100%;
+        }
+        img{
+            border-radius: 5%;
+        }
+    }
 }
 .mainGrids {
     @include varios(100%, grid,0.2rem,center);
     grid-template-columns: 0.25fr 0.25fr;
     grid-template-rows: 11rem 11rem 11rem;
     margin: 0.1rem;
+            p{
+                text-align: center;
+                font-size: 0.7rem;
+            }
             img{
+                border-radius: 5%;
                 &:hover{
                     border-radius: 50%;
                     box-shadow: 0px 0px 15px 15px red;
