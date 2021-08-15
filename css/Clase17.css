@@ -405,13 +405,16 @@ footer {
       width: 100%; } }
 
 .mainGrids {
-  display: block; }
+  display: grid;
+  grid-template-rows: auto; }
   .mainGrids div {
     text-align: center;
     width: auto; }
   .mainGrids img {
-    width: 13.5rem;
+    width: 15rem;
     margin-bottom: 0.3rem; }
+  .mainGrids p {
+    font-size: 1rem; }
 
 .table {
   margin-left: 0rem; }
@@ -438,7 +441,14 @@ footer {
   aside img {
     display: block;
     width: 8.5rem;
-    margin-left: 0rem; } }
+    margin-left: 0rem; }
+  .mainGrids {
+    display: grid;
+    grid-template-rows: auto; }
+    .mainGrids img {
+      width: 15rem; }
+    .mainGrids p {
+      font-size: 1.2rem; } }
 
 @media only screen and (min-width: 1280px) {
   .marcas {
@@ -463,7 +473,16 @@ footer {
     margin-left: 16.5rem;
     width: 30rem; }
   nav {
-    justify-content: start; } }
+    justify-content: start; }
+  .mainGrids {
+    display: grid;
+    grid-template-rows: auto; }
+    .mainGrids img {
+      width: 20rem; }
+    .mainGrids p {
+      font-size: 1.6rem; }
+  .flex .equipo {
+    width: 14rem; } }
 
 * {
   margin: 0;

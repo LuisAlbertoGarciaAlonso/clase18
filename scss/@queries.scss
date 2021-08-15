@@ -235,14 +235,18 @@ nav{
     }
 }
 .mainGrids{
-    display: block;
+    display: grid;
+    grid-template-rows: auto;
     div{
         text-align: center;
         width: auto;
     }
     img{
-        width: 13.5rem;
+        width: 15rem;
         margin-bottom: 0.3rem;
+    }
+    p{
+        font-size: 1rem;
     }
 }
 .table {
@@ -285,6 +289,16 @@ nav{
             margin-left: 0rem;
         }
     }
+    .mainGrids{
+        display: grid;
+        grid-template-rows: auto;
+        img{
+            width: 15rem;
+        }
+        p{
+            font-size: 1.2rem;
+        }
+    }
 }
 @media only screen and (min-width: 1280px) {
     .marcas{
@@ -317,5 +331,20 @@ nav{
     }
     nav{
         justify-content: start;
+    }
+    .mainGrids{
+        display: grid;
+        grid-template-rows: auto;
+        img{
+            width: 20rem;
+        }
+        p{
+            font-size: 1.6rem;
+        }
+    }
+    .flex{
+        .equipo{
+            width: 14rem;
+        }
     }
 }
