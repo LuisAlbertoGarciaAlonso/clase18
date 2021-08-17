@@ -24,22 +24,25 @@
         border-style: none;
     }
     margin-left: 10rem;
-    color: $text;
     .usuario{
+        color: black;
         font-size: 1.5rem;
-        background-color: black;
-        border: white solid 0.1rem;
+        background-color: rgb(255, 255, 255);
+        border: rgb(207, 11, 11) solid 0.1rem;
         margin-right: 1rem;
+        margin-top: 0.2rem;
         &:hover{
             color: red;
             border-radius: 30%;
+            background-color: black;
+            transition: all 0.5s ease-in;
         }
     }
     .backColor{
         background-color: rgb(255, 255, 255);
         border: red solid 0.1rem;
         color: black;
-        margin-top: 15rem;
+        margin-top: 12rem;
         font-size: 1.5rem;
     }
         ol{

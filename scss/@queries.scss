@@ -110,10 +110,14 @@
         }
     }
     .mainGrids{
-        display: block;
+        display: grid;
+        grid-template-columns: auto;
         img{
             width: 13.5rem;
             margin-bottom: 0.3rem;
+        }
+        p{
+            font-size: 0.5rem;
         }
     }
     .table {
@@ -253,7 +257,7 @@ nav{
     margin-left: 0rem;
     }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
     header{
         .logo{
             margin-left: 1rem;
@@ -282,13 +286,6 @@ nav{
     .table {
         margin-left: 1rem; 
     }
-    aside{
-        img{
-            display: block;
-            width: 8.5rem;
-            margin-left: 0rem;
-        }
-    }
     .mainGrids{
         display: grid;
         grid-template-rows: auto;
@@ -310,7 +307,7 @@ nav{
         grid-template-rows: 11rem 11rem;
     }
     .aside{
-        width:10rem;
+        width:17rem;
         .musica{
             width: 10rem;
         }
@@ -345,6 +342,113 @@ nav{
     .flex{
         .equipo{
             width: 14rem;
+        }
+    }
+}
+@media only screen and (min-width: 1441px) {
+    header{
+        .firma{
+        margin-left: 33.5rem;
+        }
+        .logo{
+            margin-left: 3.4rem;
+        }
+    }
+    .marcas{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .mainGrids{
+        grid-template-columns: 0.25fr 0.25fr 0.25fr;
+        grid-template-rows: 11rem 11rem;
+    }
+    .aside{
+        margin-left: 10rem;
+        img{
+            width: 16rem;
+        }
+    }
+    .cuerpo{
+        .miVideo {
+            @include sizes1024-1280 (42rem, 40rem);
+        }
+        .logo2 {
+            @include sizes1024-1280 (32em, 60rem);
+            height: 23rem;
+        }
+        .logo3 {
+            @include sizes1024-1280 (41rem, 42rem);
+            height: 23rem;
+        }
+        p{
+            font-size: 2rem;
+        }
+    }
+    nav{
+        justify-content: start;
+        font-size: 2.5rem;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        ul{
+            ul{
+                li{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+    .mainGrids{
+        display: grid;
+        grid-template-rows: auto;
+        margin-left: 13rem;
+        img{
+            width: 20rem;
+        }
+        p{
+            font-size: 1.6rem;
+        }
+    }
+    .flex{
+        font-size: 2.5rem;
+        .equipo{
+            width: 14rem;
+        }
+    }
+    .table{
+        margin-left: 21rem;
+        .usuario{
+            font-size: 2.2rem;
+        }
+        img{
+            width: 30rem;
+            margin-top: 1rem;
+            border-radius: 5%;
+        }
+    }
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 2rem;
+        .acesoramiento {
+            width: auto;
+        }
+        .capacitaciones {
+            width: auto;
+        }
+        .posventa {
+            width: auto;
+        }
+        .materiales {
+            width: auto;
+        }
+        .ventas {
+            width: auto;
+        }
+        .grid1{
+            a{
+                font-size: 3.5rem;
+                margin-left: 1.5rem;
+            }
         }
     }
 }

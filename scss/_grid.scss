@@ -11,9 +11,11 @@
         background-size: cover;
         a{
             text-decoration: none;
-            color: white;
-            background-color: rgba(0, 0, 0, 0.6);
+            color: black;
+            text-shadow: 1px 1px 10px red, 0 0 1rem black, 0 0 0.4rem black;
+            font-weight: bold;
             &:hover{
+                font-weight: normal;
                 background-color: black;
                 border-radius: 30%;
                 color: red;

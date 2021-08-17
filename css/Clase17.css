@@ -80,23 +80,26 @@ nav {
       box-shadow: 0px 0px 20px 10px red; }
 
 .table {
-  margin-left: 10rem;
-  color: #ffffff; }
+  margin-left: 10rem; }
   .table tbody {
     border-style: none; }
   .table .usuario {
+    color: black;
     font-size: 1.5rem;
-    background-color: black;
-    border: white solid 0.1rem;
-    margin-right: 1rem; }
+    background-color: white;
+    border: #cf0b0b solid 0.1rem;
+    margin-right: 1rem;
+    margin-top: 0.2rem; }
     .table .usuario:hover {
       color: red;
-      border-radius: 30%; }
+      border-radius: 30%;
+      background-color: black;
+      transition: all 0.5s ease-in; }
   .table .backColor {
     background-color: white;
     border: red solid 0.1rem;
     color: black;
-    margin-top: 15rem;
+    margin-top: 12rem;
     font-size: 1.5rem; }
   .table ol {
     text-decoration: none;
@@ -147,9 +150,11 @@ nav {
     background-size: cover; }
     .grid .grid1 a {
       text-decoration: none;
-      color: white;
-      background-color: rgba(0, 0, 0, 0.6); }
+      color: black;
+      text-shadow: 1px 1px 10px red, 0 0 1rem black, 0 0 0.4rem black;
+      font-weight: bold; }
       .grid .grid1 a:hover {
+        font-weight: normal;
         background-color: black;
         border-radius: 30%;
         color: red;
@@ -308,10 +313,13 @@ footer {
       .marcas div a {
         width: 100%; }
   .mainGrids {
-    display: block; }
+    display: grid;
+    grid-template-columns: auto; }
     .mainGrids img {
       width: 13.5rem;
       margin-bottom: 0.3rem; }
+    .mainGrids p {
+      font-size: 0.5rem; }
   .table {
     margin-left: 0rem; }
     .table img {
@@ -419,7 +427,7 @@ footer {
 .table {
   margin-left: 0rem; }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
   header .logo {
     margin-left: 1rem; }
   header .firma {
@@ -438,10 +446,6 @@ footer {
     width: 9.4rem; }
   .table {
     margin-left: 1rem; }
-  aside img {
-    display: block;
-    width: 8.5rem;
-    margin-left: 0rem; }
   .mainGrids {
     display: grid;
     grid-template-rows: auto; }
@@ -458,7 +462,7 @@ footer {
     grid-template-columns: 0.25fr 0.25fr 0.25fr;
     grid-template-rows: 11rem 11rem; }
   .aside {
-    width: 10rem; }
+    width: 17rem; }
     .aside .musica {
       width: 10rem; }
     .aside img {
@@ -483,6 +487,79 @@ footer {
       font-size: 1.6rem; }
   .flex .equipo {
     width: 14rem; } }
+
+@media only screen and (min-width: 1441px) {
+  header .firma {
+    margin-left: 33.5rem; }
+  header .logo {
+    margin-left: 3.4rem; }
+  .marcas {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; }
+  .mainGrids {
+    grid-template-columns: 0.25fr 0.25fr 0.25fr;
+    grid-template-rows: 11rem 11rem; }
+  .aside {
+    margin-left: 10rem; }
+    .aside img {
+      width: 16rem; }
+  .cuerpo .miVideo {
+    margin-left: 42rem;
+    width: 40rem; }
+  .cuerpo .logo2 {
+    margin-left: 32em;
+    width: 60rem;
+    height: 23rem; }
+  .cuerpo .logo3 {
+    margin-left: 41rem;
+    width: 42rem;
+    height: 23rem; }
+  .cuerpo p {
+    font-size: 2rem; }
+  nav {
+    justify-content: start;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    margin-top: 2rem; }
+    nav ul ul li {
+      font-size: 2rem; }
+  .mainGrids {
+    display: grid;
+    grid-template-rows: auto;
+    margin-left: 13rem; }
+    .mainGrids img {
+      width: 20rem; }
+    .mainGrids p {
+      font-size: 1.6rem; }
+  .flex {
+    font-size: 2.5rem; }
+    .flex .equipo {
+      width: 14rem; }
+  .table {
+    margin-left: 21rem; }
+    .table .usuario {
+      font-size: 2.2rem; }
+    .table img {
+      width: 30rem;
+      margin-top: 1rem;
+      border-radius: 5%; }
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem; }
+    .grid .acesoramiento {
+      width: auto; }
+    .grid .capacitaciones {
+      width: auto; }
+    .grid .posventa {
+      width: auto; }
+    .grid .materiales {
+      width: auto; }
+    .grid .ventas {
+      width: auto; }
+    .grid .grid1 a {
+      font-size: 3.5rem;
+      margin-left: 1.5rem; } }
 
 * {
   margin: 0;
