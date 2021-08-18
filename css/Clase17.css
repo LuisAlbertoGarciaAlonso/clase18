@@ -139,6 +139,8 @@ nav {
   .cuerpo .buttom {
     width: 20rem;
     margin-top: 1rem; }
+  .cuerpo .color {
+    color: red; }
 
 .grid {
   display: grid;
@@ -413,22 +415,20 @@ footer {
     .marcas div {
       margin-bottom: 0.1rem; }
     .marcas a {
-      width: 100%; } }
-
-.mainGrids {
-  display: grid;
-  grid-template-rows: auto; }
-  .mainGrids div {
-    text-align: center;
-    width: auto; }
-  .mainGrids img {
-    width: 15rem;
-    margin-bottom: 0.3rem; }
-  .mainGrids p {
-    font-size: 1rem; }
-
-.table {
-  margin-left: 0rem; }
+      width: 100%; }
+  .mainGrids {
+    display: grid;
+    grid-template-rows: auto; }
+    .mainGrids div {
+      text-align: center;
+      width: auto; }
+    .mainGrids img {
+      width: 15rem;
+      margin-bottom: 0.3rem; }
+    .mainGrids p {
+      font-size: 1rem; }
+  .table {
+    margin-left: 0rem; } }
 
 @media only screen and (min-width: 1024px) and (max-width: 1440px) {
   header .logo {
@@ -550,8 +550,8 @@ footer {
       margin-top: 1rem;
       border-radius: 5%; }
   .grid {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 2rem; }
     .grid .acesoramiento {
       width: auto; }

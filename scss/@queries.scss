@@ -237,7 +237,7 @@ nav{
             width: 100%;
         }
     }
-}
+
 .mainGrids{
     display: grid;
     grid-template-rows: auto;
@@ -256,7 +256,7 @@ nav{
 .table {
     margin-left: 0rem;
     }
-
+}
 @media only screen and (min-width: 1024px) and (max-width: 1440px) {
     header{
         .logo{
@@ -430,8 +430,8 @@ nav{
         }
     }
     .grid {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
         gap: 2rem;
         .acesoramiento {
             width: auto;
