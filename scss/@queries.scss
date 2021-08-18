@@ -371,6 +371,7 @@ nav{
     .cuerpo{
         .miVideo {
             @include sizes1024-1280 (15%, 70%);
+            height: 22.54rem;
         }
         .logo2 {
             @include sizes1024-1280 (15%, 70%);

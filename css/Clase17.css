@@ -136,6 +136,9 @@ nav {
   .cuerpo .notfound {
     font-size: 5rem;
     margin-left: 20rem; }
+  .cuerpo .buttom {
+    width: 20rem;
+    margin-top: 1rem; }
 
 .grid {
   display: grid;
@@ -505,7 +508,8 @@ footer {
       width: 16rem; }
   .cuerpo .miVideo {
     margin-left: 15%;
-    width: 70%; }
+    width: 70%;
+    height: 22.54rem; }
   .cuerpo .logo2 {
     margin-left: 15%;
     width: 70%;
