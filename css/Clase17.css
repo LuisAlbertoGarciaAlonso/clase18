@@ -490,7 +490,7 @@ footer {
 
 @media only screen and (min-width: 1441px) {
   header .firma {
-    margin-left: 33.5rem; }
+    margin-left: 10rem; }
   header .logo {
     margin-left: 3.4rem; }
   .marcas {
@@ -504,15 +504,15 @@ footer {
     .aside img {
       width: 16rem; }
   .cuerpo .miVideo {
-    margin-left: 42rem;
-    width: 40rem; }
+    margin-left: 15%;
+    width: 70%; }
   .cuerpo .logo2 {
-    margin-left: 32em;
-    width: 60rem;
+    margin-left: 15%;
+    width: 70%;
     height: 23rem; }
   .cuerpo .logo3 {
-    margin-left: 41rem;
-    width: 42rem;
+    margin-left: 15%;
+    width: 70%;
     height: 23rem; }
   .cuerpo p {
     font-size: 2rem; }

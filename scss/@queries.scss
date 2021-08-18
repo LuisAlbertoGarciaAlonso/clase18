@@ -348,7 +348,7 @@ nav{
 @media only screen and (min-width: 1441px) {
     header{
         .firma{
-        margin-left: 33.5rem;
+        margin-left: 10rem;
         }
         .logo{
             margin-left: 3.4rem;
@@ -370,14 +370,14 @@ nav{
     }
     .cuerpo{
         .miVideo {
-            @include sizes1024-1280 (42rem, 40rem);
+            @include sizes1024-1280 (15%, 70%);
         }
         .logo2 {
-            @include sizes1024-1280 (32em, 60rem);
+            @include sizes1024-1280 (15%, 70%);
             height: 23rem;
         }
         .logo3 {
-            @include sizes1024-1280 (41rem, 42rem);
+            @include sizes1024-1280 (15%, 70%);
             height: 23rem;
         }
         p{
