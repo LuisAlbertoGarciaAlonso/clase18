@@ -30,10 +30,10 @@
                 height: 7.55rem;
             }
             .logo2 {
-                @include sizes (2rem, 8rem, 12.5rem);
+                @include sizes (auto, 8rem, 12.5rem);
             }
             .logo3 {
-                @include sizes (2rem, 8rem, 12.5rem);
+                @include sizes (auto, 8rem, 12.5rem);
             }
             p{
                 margin: 0.5rem;
