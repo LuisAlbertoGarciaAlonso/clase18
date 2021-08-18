@@ -548,8 +548,8 @@ footer {
       margin-top: 1rem;
       border-radius: 5%; }
   .grid {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 2rem; }
     .grid .acesoramiento {
       width: auto; }
