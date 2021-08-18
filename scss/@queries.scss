@@ -25,15 +25,15 @@
             margin-right: 1rem;
         .cuerpo{
             .miVideo {
-                @include sizes (0.5rem,false , 12rem);
+                @include sizes (2rem,false , 12rem);
                 margin-top: 0;
                 height: 7.55rem;
             }
             .logo2 {
-                @include sizes (0rem, 8rem, 12.5rem);
+                @include sizes (2rem, 8rem, 12.5rem);
             }
             .logo3 {
-                @include sizes (0rem, 8rem, 12.5rem);
+                @include sizes (2rem, 8rem, 12.5rem);
             }
             p{
                 margin: 0.5rem;
