@@ -137,7 +137,7 @@ nav {
     font-size: 5rem;
     margin-left: 20rem; }
   .cuerpo .buttom {
-    width: 20rem;
+    width: 14rem;
     margin-top: 1rem; }
   .cuerpo .color {
     color: red; }
@@ -383,7 +383,7 @@ footer {
       padding: 0; }
       nav ul ul {
         top: 16rem;
-        left: 5rem; }
+        left: 11rem; }
   .grid {
     grid-template-columns: auto;
     grid-template-rows: 5rem 5rem 5rem 5rem 5rem;
@@ -411,7 +411,8 @@ footer {
       width: 14rem; }
   .marcas {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; }
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px; }
     .marcas div {
       margin-bottom: 0.1rem; }
     .marcas a {

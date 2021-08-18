@@ -188,7 +188,7 @@ nav{
         padding: 0;
         ul{
             top: 16rem;
-            left: 5rem;
+            left: 11rem;
         }
     }
 }
@@ -230,6 +230,7 @@ nav{
 .marcas{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
     div{
         margin-bottom: 0.1rem;
         }
