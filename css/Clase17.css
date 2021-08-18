@@ -520,6 +520,8 @@ footer {
     height: 23rem; }
   .cuerpo p {
     font-size: 2rem; }
+  .cuerpo .buttom {
+    width: 25rem; }
   nav {
     justify-content: start;
     font-size: 2.5rem;
