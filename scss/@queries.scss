@@ -25,7 +25,7 @@
             margin-right: 1rem;
         .cuerpo{
             .miVideo {
-                @include sizes (0.5rem, false, 12rem);
+                @include sizes (0rem, false, 12rem);
                 margin-top: 0;
                 height: 7.55rem;
             }

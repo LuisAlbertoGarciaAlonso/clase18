@@ -252,7 +252,7 @@ footer {
     grid-template-columns: 0.5fr 1fr;
     margin-right: 1rem; }
     main .cuerpo .miVideo {
-      margin-left: 0.5rem;
+      margin-left: 0rem;
       height: false;
       width: 12rem;
       margin-top: 0;
