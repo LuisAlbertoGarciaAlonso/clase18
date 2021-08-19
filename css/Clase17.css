@@ -8,9 +8,7 @@ header {
     background-color: #0a0a0a;
     color: red;
     width: 100%;
-    border: red 1px solid;
-    border-radius: 20%;
-    margin: 0.5rem; }
+    border-radius: 20%; }
   header a {
     text-decoration: none; }
   header .logo {
