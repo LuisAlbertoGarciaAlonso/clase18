@@ -252,16 +252,16 @@ footer {
     grid-template-columns: 0.5fr 1fr;
     margin-right: 1rem; }
     main .cuerpo .miVideo {
-      margin-left: 0rem;
+      margin-left: 0.5rem;
       height: 7.55rem;
       width: 12rem;
       margin-top: 0; }
     main .cuerpo .logo2 {
-      margin-left: 0rem;
+      margin-left: 0.5rem;
       height: 8rem;
       width: 12.5rem; }
     main .cuerpo .logo3 {
-      margin-left: 0rem;
+      margin-left: 0.5rem;
       height: 8rem;
       width: 12.5rem; }
     main .cuerpo p {
@@ -347,21 +347,17 @@ footer {
     margin-left: 0.3rem; }
   .cuerpo .miVideo {
     margin-left: 0.5rem;
-    height: false;
-    width: 12rem;
-    margin-top: 0;
-    margin-left: 7rem;
-    height: 7.55rem; }
+    height: 14.55rem;
+    width: 25rem;
+    margin-top: 0; }
   .cuerpo .logo2 {
-    margin-left: 0rem;
-    height: 8rem;
-    width: 12.5rem;
-    margin-left: 6.8rem; }
+    margin-left: 0.5rem;
+    height: 15rem;
+    width: 25rem; }
   .cuerpo .logo3 {
-    margin-left: 0rem;
-    height: 8rem;
-    width: 12.5rem;
-    margin-left: 6.8rem; }
+    margin-left: 0.5rem;
+    height: 15rem;
+    width: 25rem; }
   .cuerpo p {
     margin: 0.5rem; }
   .cuerpo .notfound {
@@ -521,16 +517,16 @@ footer {
       width: 16rem; }
   .cuerpo .miVideo {
     margin-left: 15%;
-    width: 70%;
-    height: 22.54rem; }
+    height: 35.55rem;
+    width: 70%; }
   .cuerpo .logo2 {
     margin-left: 15%;
-    width: 70%;
-    height: 23rem; }
+    height: 36rem;
+    width: 70%; }
   .cuerpo .logo3 {
     margin-left: 15%;
-    width: 70%;
-    height: 23rem; }
+    height: 36rem;
+    width: 70%; }
   .cuerpo p {
     font-size: 2rem; }
   .cuerpo .buttom {

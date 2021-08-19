@@ -25,14 +25,14 @@
             margin-right: 1rem;
         .cuerpo{
             .miVideo {
-                @include sizes (0rem, 7.55rem, 12rem);
+                @include sizes (0.5rem, 7.55rem, 12rem);
                 margin-top: 0;
             }
             .logo2 {
-                @include sizes (0rem, 8rem, 12.5rem);
+                @include sizes (0.5rem, 8rem, 12.5rem);
             }
             .logo3 {
-                @include sizes (0rem, 8rem, 12.5rem);
+                @include sizes (0.5rem, 8rem, 12.5rem);
             }
             p{
                 margin: 0.5rem;
@@ -147,19 +147,14 @@
     }
     .cuerpo{
         .miVideo {
-            @include sizes (0.5rem,false , 12rem);
+            @include sizes (0.5rem, 14.55rem, 25rem);
             margin-top: 0;
-            margin-left: 7rem;
-            height: 7.55rem;
-            
         }
         .logo2 {
-            @include sizes (0rem, 8rem, 12.5rem);
-            margin-left: 6.8rem;
+            @include sizes (0.5rem, 15rem, 25rem);
         }
         .logo3 {
-            @include sizes (0rem, 8rem, 12.5rem);
-            margin-left: 6.8rem;
+            @include sizes (0.5rem, 15rem, 25rem);
         }
         p{
             margin: 0.5rem;
@@ -389,16 +384,13 @@ nav{
     }
     .cuerpo{
         .miVideo {
-            @include sizes1024-1280 (15%, 70%);
-            height: 22.54rem;
+            @include sizes (15%, 35.55rem, 70%);
         }
         .logo2 {
-            @include sizes1024-1280 (15%, 70%);
-            height: 23rem;
+            @include sizes (15%, 36rem, 70%);
         }
         .logo3 {
-            @include sizes1024-1280 (15%, 70%);
-            height: 23rem;
+            @include sizes (15%, 36rem, 70%);
         }
         p{
             font-size: 2rem;
