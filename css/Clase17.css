@@ -5,9 +5,12 @@ header {
   margin-bottom: 0.5rem; }
   header:hover {
     transition: all 1s ease-in;
-    background-color: #000000;
+    background-color: #0a0a0a;
     color: red;
-    width: 100%; }
+    width: 100%;
+    border: red 1px solid;
+    border-radius: 20%;
+    margin: 0.5rem; }
   header a {
     text-decoration: none; }
   header .logo {
@@ -50,7 +53,7 @@ nav {
         font-size: 1rem;
         z-index: 1; }
         nav ul li:hover ul:hover {
-          background-color: #000000; }
+          background-color: #272626; }
   nav ul a {
     color: #ffffff;
     text-decoration: none; }
@@ -58,7 +61,9 @@ nav {
       transition: all 0.5s ease-in;
       border-radius: 30%;
       background-color: #000000;
-      color: red; }
+      color: red;
+      border: red 1px solid;
+      padding: 0.2rem; }
 
 .flex {
   justify-content: space-around;
