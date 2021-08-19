@@ -359,7 +359,8 @@ footer {
     height: 15rem;
     width: 25rem; }
   .cuerpo p {
-    margin: 0.5rem; }
+    margin: 0.5rem;
+    font-size: 1.5rem; }
   .cuerpo .notfound {
     font-size: 5rem;
     margin-left: 20rem; }
@@ -446,6 +447,8 @@ footer {
   .cuerpo .logo3 {
     margin-left: 5rem;
     width: 30rem; }
+  .cuerpo p {
+    font-size: 2rem; }
   .flex .equipo {
     width: 9.4rem; }
   .table {
@@ -528,7 +531,7 @@ footer {
     height: 36rem;
     width: 70%; }
   .cuerpo p {
-    font-size: 2rem; }
+    font-size: 2.5rem; }
   .cuerpo .buttom {
     width: 25rem; }
   nav {

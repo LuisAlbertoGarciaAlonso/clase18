@@ -158,6 +158,7 @@
         }
         p{
             margin: 0.5rem;
+            font-size: 1.5rem;
         }
         .notfound{
             font-size: 5rem;
@@ -279,6 +280,9 @@ nav{
         .logo3 {
             @include sizes1024-1280 (5rem, 30rem);
         }
+        p{
+            font-size: 2rem;
+        }
     }
     .flex {
         .equipo {
@@ -393,7 +397,7 @@ nav{
             @include sizes (15%, 36rem, 70%);
         }
         p{
-            font-size: 2rem;
+            font-size: 2.5rem;
         }
         .buttom{
             width: 25rem;
