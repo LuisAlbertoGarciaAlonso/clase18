@@ -116,7 +116,7 @@
             margin-bottom: 0.3rem;
         }
         p{
-            font-size: 1rem;
+            font-size: 0.8rem;
         }
     }
     .table {
@@ -255,9 +255,15 @@ nav{
 .table {
     margin-left: 0rem;
     .usuario{
-        width: 15rem;
+        width: 11rem;
+        font-size: 1.1rem;
     }
+    img{
+        width: 25rem;
+        margin-top: 1rem;
+        border-radius: 5%;
     }
+}
 }
 @media only screen and (min-width: 1024px) and (max-width: 1440px) {
     header{
@@ -314,6 +320,16 @@ nav{
             width: 8rem;
         }
     }
+    .table{
+        .usuario{
+            font-size: 1.8rem;
+            width: 18rem;
+        }
+        img{
+            margin-top: 1rem;
+            border-radius: 5%;
+        }
+    }
 }
 @media only screen and (min-width: 1280px) {
     .marcas{
@@ -360,6 +376,17 @@ nav{
     .flex{
         .equipo{
             width: 14rem;
+        }
+    }
+    .table{
+        .usuario{
+            font-size: 1.8rem;
+            width: 20rem;
+        }
+        img{
+            width: 30rem;
+            margin-top: 1rem;
+            border-radius: 5%;
         }
     }
 }

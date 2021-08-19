@@ -323,7 +323,7 @@ footer {
       width: 13.5rem;
       margin-bottom: 0.3rem; }
     .mainGrids p {
-      font-size: 1rem; }
+      font-size: 0.8rem; }
   .table {
     margin-left: 0rem; }
     .table .usuario {
@@ -429,7 +429,12 @@ footer {
   .table {
     margin-left: 0rem; }
     .table .usuario {
-      width: 15rem; } }
+      width: 11rem;
+      font-size: 1.1rem; }
+    .table img {
+      width: 25rem;
+      margin-top: 1rem;
+      border-radius: 5%; } }
 
 @media only screen and (min-width: 1024px) and (max-width: 1440px) {
   header .logo {
@@ -467,7 +472,13 @@ footer {
   .aside {
     width: 8rem; }
     .aside img {
-      width: 8rem; } }
+      width: 8rem; }
+  .table .usuario {
+    font-size: 1.8rem;
+    width: 18rem; }
+  .table img {
+    margin-top: 1rem;
+    border-radius: 5%; } }
 
 @media only screen and (min-width: 1280px) {
   .marcas {
@@ -501,7 +512,14 @@ footer {
     .mainGrids p {
       font-size: 1.6rem; }
   .flex .equipo {
-    width: 14rem; } }
+    width: 14rem; }
+  .table .usuario {
+    font-size: 1.8rem;
+    width: 20rem; }
+  .table img {
+    width: 30rem;
+    margin-top: 1rem;
+    border-radius: 5%; } }
 
 @media only screen and (min-width: 1441px) {
   header .firma {
